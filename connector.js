@@ -16,7 +16,6 @@ const pool = new Pool({
 
 let client = null;
 
-// Function to test the connection
 const getClient = async () => {
     try {
         if (!client) {
